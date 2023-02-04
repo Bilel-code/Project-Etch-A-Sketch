@@ -1,0 +1,33 @@
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+  
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    grid-gap: 1px;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+  }
+
+  .grid-item {
+    background-color: lightgray;
+    border: 1px solid black;
+    
+  }
+
+  button {
+    margin: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+  }
